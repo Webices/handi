@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-<title>DE ART Handicrafs | Custom Handcrafts, customized handcrafts, customised handcrafts</title>
+<title>DE ART Handicrafs | Custom Handicrafts, customized handicrafts, customised handicrafts</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="De Art Hancrafts Private Limited is a leading Handcrafts company in India. De Art Handcrafts provides customized handcrafts to it's customers.">
+<meta name="description" content="De Art Handicrafts Private Limited is a leading Handicrafts company in India. De Art Handicrafts provides customized handcrafts to it's customers.">
 <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-touch-icon-72x72.png">
@@ -19,8 +19,8 @@
 <link rel="manifest" href="/icon/manifest.json">
 <link rel="mask-icon" href="/icon/safari-pinned-tab.svg" color="#5bbad5">
 <link rel="shortcut icon" href="/icon/favicon.ico">
-<meta name="apple-mobile-web-app-title" content="De Art Handcrafts">
-<meta name="application-name" content="De Art Handcrafts">
+<meta name="apple-mobile-web-app-title" content="De Art Handicrafts">
+<meta name="application-name" content="De Art Handicrafts">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="msapplication-TileImage" content="/icon/mstile-144x144.png">
 <meta name="msapplication-config" content="/icon/browserconfig.xml">
@@ -41,22 +41,15 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 }
 .de{
   font-family: claudius;
-}
-.de-color{
+}.de-color{
   background-color: #FDF8C9;
 }
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
     opacity: 0.9;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-/* First image (Logo. Full height) */
-.bgimg-1 {
-    background-image: url('http://www.w3schools.com/w3css/img_parallax1.jpg');
-    min-height: 100%;
 }
 
 /* Second image (Portfolio) */
@@ -67,6 +60,11 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 /* Third image (Contact) */
 .bgimg-3 {
+    background-image: url("img/p3.jpg");
+    min-height: 400px;
+}
+
+.bgimg-4 {
     background-image: url("img/p1.jpg");
     min-height: 400px;
 }
@@ -79,10 +77,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <div class="w3-container w3-white w3-padding-large w3-border-bottom w3-border-orange">
       <a href="//deart.in" class="de w3-left w3-padding w3-xxlarge w3-lobster">De Art <span class="w3-hide-small">Handicrafts</span></a>
       <div class="w3-right w3-hide-small w3-padding-xxlarge">
-        <a href="/products" class="w3-border w3-border-white w3-hover-border-black w3-padding">PRODUCTS</a>
-        <a href="/gallery" class="w3-border w3-border-white w3-hover-border-black w3-padding">GALLERY</a>
-        <a href="/contact" class="w3-border w3-border-white w3-hover-border-black w3-padding">CONTACT</a>
-        <a href="/about" class="w3-border w3-border-white w3-hover-border-black w3-padding">ABOUT</a>
+        <a href="#products" class="w3-border w3-border-white w3-hover-border-black w3-padding">PRODUCTS</a>
+        <a href="#gallery" class="w3-border w3-border-white w3-hover-border-black w3-padding">GALLERY</a>
+        <a href="#contact" class="w3-border w3-border-white w3-hover-border-black w3-padding">CONTACT</a>
+        <a href="#about" class="w3-border w3-border-white w3-hover-border-black w3-padding">ABOUT</a>
       </div>
       <div class="w3-hide-medium w3-hide-large w3-opennav w3-right">
         <a class="w3-padding w3-hover-black w3-large fa fa-bars" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"></a>
@@ -93,75 +91,107 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <!-- Navbar on small screens -->
     <div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium">
       <ul class="w3-navbar w3-left-align w3-large w3-black w3-animate-opacity">
-        <li><a class="w3-padding-large" href="/products">PRODUCTS</a></li>
-        <li><a class="w3-padding-large" href="/gallery">GALLERY</a></li>
-        <li><a class="w3-padding-large" href="/contact">CONTACT</a></li>
-        <li><a class="w3-padding-large" href="/about">ABOUT</a></li>
+        <li><a class="w3-padding-large" href="#products">PRODUCTS</a></li>
+        <li><a class="w3-padding-large" href="#gallery">GALLERY</a></li>
+        <li><a class="w3-padding-large" href="#contact">CONTACT</a></li>
+        <li><a class="w3-padding-large" href="#about">ABOUT</a></li>
       </ul>
     </div>
 
       <img src="img/banner.jpg" width="100%"></img>
 
-        <div class="w3-container w3-white w3-center w3-padding-64" style="letter-spacing: 2px;">
+        <div id="products" class="w3-container w3-white w3-center w3-padding-64" style="letter-spacing: 2px;">
           <h1 class="w3-margin w3-xlarge">OUR CUSTOMIZED PRODUCTS</h1>
-          <h6 class="w3-margin w3-opacity">YOU IMAGINE AND WE MAKE IT INTO REALITY</h6>
+          <h6 class="w3-margin w3-opacity">YOU IMAGINE AND WE CREATE IT INTO REALITY</h6>
           <br/><br/>
           <div class="w3-container">
-            d
+            <div class="w3-row-padding w3-center">
+              <a href="#contact" class="w3-col m3 w3-card-0 w3-border">
+                <img src="/img/product1.png" style="width:100%" class="w3-hover-opacity">
+                Handmade Paper Folder
+              </a>
+              <a href="#contact" class="w3-col m3 w3-card-0 w3-border">
+                <img src="/img/product2.jpg" style="width:100%" class="w3-hover-opacity">
+                Wall mask
+              </a>
+              <a href="#contact" class="w3-col m3 w3-card-0 w3-border">
+                <img src="/img/product3.jpg" style="width:100%" class="w3-hover-opacity">
+                Turtle miniature
+              </a>
+              <a href="#contact" class="w3-col m3 w3-card-0 w3-border">
+                <img src="/img/product4.jpg" style="width:100%" class="w3-hover-opacity">
+                Marble Texture box
+              </a>
+            </div>
           </div>
-          <br/><br/><br/><br/>
-          <a href="/contact" class="w3-btn w3-white w3-xlarge w3-border w3-border-black w3-padding">CONTACT US</a>
+          <br/>
+          <h6 class="w3-margin">WE CUSTOMISE PRODUCTS ACCORDING TO YOUR DEMAND.</h6>
+          <a href="#contact" class="w3-btn w3-white w3-xlarge w3-border w3-border-black w3-padding">CONTACT US</a>
         </div>
 
-        <div class="w3-container w3-black w3-center" style="letter-spacing: 2px;">
+        <div class="bgimg-4 w3-display-container">
+          <div class="w3-display-middle w3-xlarge w3-text-light-grey w3-wide">
+            YOU IMAGINE AND WE CREATE IT INTO REALITY
           </div>
+        </div>
+
+        <div id="about" class="w3-content  w3-center w3-padding-64" style="letter-spacing: 2px;">
+          <h1 class="w3-margin w3-xlarge">ABOUT US</h1>
+          <h6 class="w3-margin w3-opacity">DeArt handicrafts is an art organisation that bring together numerous artworks and artists together to work along and bring out creativity for their lively hood . We just work for the growth of art field and for the economic betterment of our country. Our objective is just to keep art forms alive and make them part of your precious priceless special moments.With our customised product range you can explore that our articles involes around your basic day to day useage material which draw your attention towards beautifull art i.e gift envelops , customised designed appearls, handmade invitation cards, notepads, letterpads and much more....</h6>
+          <br/><br/>
+        </div>
+
 
         <!-- Second Parallax Image with Portfolio Text -->
         <div class="bgimg-2 w3-display-container">
-          <div class="w3-display-middle">
-            <a href="tel:+919910493385" class="w3-xxlarge w3-text-light-grey w3-wide de">+919910493385</a>
-          </div>
         </div>
 
         <!-- Container (Portfolio Section) -->
-        <div class="w3-content w3-container w3-padding-64">
+        <div id="gallery" class="w3-container w3-padding-64">
           <h3 class="w3-center">GALLERY</h3>
 
           <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
           <div class="w3-row-padding w3-center">
-            <div class="w3-col m3">
+            <a href="#contact" class="w3-col m3 w3-card-0 w3-border">
               <img src="/img/g1.jpg" style="width:100%" class="w3-hover-opacity">
-            </div>
-
-            <div class="w3-col m3">
-              <img src="/img/g2.jpg" style="width:100%" class="w3-hover-opacity">
-            </div>
-
-            <div class="w3-col m3">
+              Handmade Paper Kandeel
+            </a>
+            <a href="#contact" class="w3-col m3 w3-card-0 w3-border">
+              <img src="/img/g11.jpg" style="width:100%" class="w3-hover-opacity">
+              Peacock Print Kurti
+            </a>
+            <a href="#contact" class="w3-col m3 w3-card-0 w3-border">
               <img src="/img/g3.jpg" style="width:100%" class="w3-hover-opacity">
-            </div>
-
-            <div class="w3-col m3">
+              Handprinted Kurti
+            </a>
+            <a href="#contact" class="w3-col m3 w3-card-0 w3-border">
               <img src="/img/g4.jpg" style="width:100%" class="w3-hover-opacity">
-            </div>
-          </div>
-
-          <div class="w3-row-padding w3-center w3-section">
-            <div class="w3-col m3">
+              Leaf Pattern Gift Envelope
+            </a>
+            <a href="#contact" class="w3-col m3 w3-card-0 w3-border">
               <img src="/img/g5.jpg" style="width:100%" class="w3-hover-opacity">
-            </div>
-
-            <div class="w3-col m3">
-              <img src="/img/g6.jpg" style="width:100%" class="w3-hover-opacity">
-            </div>
-
-            <div class="w3-col m3">
+              Ethnic Art Pillow Cover
+            </a>
+            <a href="#contact" class="w3-col m3 w3-card-0 w3-border">
+              <img src="/img/g2.jpg" style="width:100%" class="w3-hover-opacity">
+              Decorative Cutouts
+            </a>
+            <a href="#contact" class="w3-col m3 w3-card-0 w3-border">
               <img src="/img/g7.jpg" style="width:100%" class="w3-hover-opacity">
-            </div>
-
-            <div class="w3-col m3">
+              Abstract Design Gift Envelope
+            </a>
+            <a href="#contact" class="w3-col m3 w3-card-0 w3-border">
               <img src="/img/g8.jpg" style="width:100%" class="w3-hover-opacity">
-            </div>
+              Geometrical Design Wall Painting
+            </a>
+            <a href="#contact" class="w3-col m3 w3-card-0 w3-border">
+              <img src="/img/g9.jpg" style="width:100%" class="w3-hover-opacity">
+              Jute Mask
+            </a>
+            <a href="#contact" class="w3-col m3 w3-card-0 w3-border">
+              <img src="/img/g10.jpg" style="width:100%" class="w3-hover-opacity">
+              Stone Art Gift Box
+            </a>
           </div>
         </div>
 
@@ -176,13 +206,13 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
         <div class="bgimg-3 w3-display-container">
           <div class="w3-display-middle">
-            <span class="w3-xxlarge w3-text-light-grey w3-wide">GET IN TOUCH</span>
+            <span class="w3-xxlarge w3-text-black w3-blue w3-wide">GET IN TOUCH</span>
           </div>
         </div>
 
 
 
-        <div class="w3-container w3-white w3-center w3-padding-top w3-padding-bottom w3-border-bottom w3-border-orange">
+        <div id="contact" class="w3-container w3-center w3-padding-top w3-padding-bottom w3-border-bottom w3-border-orange" style="background-color:rgba(161, 204, 255, 0.46);">
 
           <br/><br/>
           <h6 class="w3-margin w3-wide">"YOU IMAGINE AND WE MAKE IT INTO REALITY"</h6>
@@ -192,10 +222,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
               <p class="">
                 <h4 class="w3-left" style="letter-spacing: 2px;"> SAY HELLO</h4>
-                <input class="w3-input w3-border w3-margin-top" type="text" id="Name" placeholder="Name">
-                <input class="w3-input w3-border w3-margin-top" type="text" id="Email" placeholder="Email">
-                <input class="w3-input w3-border w3-margin-top" type="text" id="Phone" placeholder="Phone">
-                <textarea rows="4" cols="50" class="w3-input w3-border w3-margin-top" id="Message" type="text" placeholder="Message"></textarea>
+                <input class="w3-input w3-border w3-border-black w3-margin-top" type="text" id="Name" placeholder="Name">
+                <input class="w3-input w3-border w3-border-black w3-margin-top" type="text" id="Email" placeholder="Email">
+                <input class="w3-input w3-border w3-border-black w3-margin-top" type="text" id="Phone" placeholder="Phone">
+                <textarea rows="4" cols="50" class="w3-input w3-border w3-border-black w3-margin-top" id="Message" type="text" placeholder="Message"></textarea>
                 <div id="smsg" class="w3-container w3-green w3-hide">
                   <span onclick="this.parentElement.className='w3-container w3-green w3-hide'" class="w3-closebtn">&times;</span>
                   <h3>Success!</h3>
@@ -204,7 +234,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
                 <div id="fmsg" class="w3-container w3-red w3-hide">
                   <span onclick="this.parentElement.className='w3-container w3-red w3-hide'" class="w3-closebtn">&times;</span>
                   <h3>Failed!</h3>
-                  <p>Server not responding. Give us a call +91 9999449411 or email us art@deart.in</p>
+                  <p>Server not responding. Give us a call +91 9910493585 or email us art@deart.in</p>
                 </div>
                 <button class="w3-btn w3-white w3-border w3-border-black w3-right w3-margin-top" onClick="sendIt()"> S E N D </button>
                 <div class="w3-left w3-margin-top w3-opacity">* Note: Your Credentials will be kept safe and sound</div>
@@ -213,7 +243,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
             <div class="w3-half w3-margin-top"  style="letter-spacing: 2px;">
               <h1 class="w3-margin w3-xlarge">&nbsp;</h1>
 
-              <div class="w3-card-0 w3-border-bottom w3-border-right w3-half  w3-border-orange">
+              <div class="w3-card-0 w3-border-bottom w3-border-right w3-half  w3-border-black">
                 <a href="/reach" class="w3-hover-text-red">
                   <i class="fa fa-map-o w3-xxlarge w3-margin"></i><br/>
                   OUR OFFICE<br/>
@@ -221,15 +251,16 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
                 </a>
               </div>
 
-              <div class="w3-card-0 w3-half w3-border-bottom w3-border-left w3-border-orange">
+              <div class="w3-card-0 w3-half w3-border-bottom w3-border-left w3-border-black">
                 <i class="fa fa-mobile w3-xxlarge w3-margin"></i><br/>
                 OUR PHONES<br/>
                 <div class="w3-margin-top w3-opacity w3-margin">
-                  <a href="tel:+919811045508" class="w3-hover-text-red">+91 9811 045 508</a><br/>
                   <a href="tel:+919910493385" class="w3-hover-text-red">+91 9910 493 385</a></div>
+                  <br/>
+
                 </div>
 
-                <div class="w3-card-0 w3-half w3-border-top w3-border-right  w3-border-orange">
+                <div class="w3-card-0 w3-half w3-border-top w3-border-right  w3-border-black">
                   <i class="fa fa-envelope-o w3-xxlarge w3-margin"></i><br/>
                   EMAIL ADDRESS<br/>
                   <div class="w3-margin-top w3-opacity w3-margin">
@@ -237,7 +268,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
                     <a href="mailto:art@dearthandicrafts.com" class="w3-hover-text-red">art@DeArtHandicrafts.com</a></div>
                   </div>
 
-                  <div class="w3-card-0 w3-border-top w3-border-left w3-half  w3-border-orange">
+                  <div class="w3-card-0 w3-border-top w3-border-left w3-half  w3-border-black">
                     <i class="fa fa-link w3-xxlarge w3-margin"></i><br/>
                     OUR WEBSITES<br/>
                     <div class="w3-margin-top w3-opacity w3-margin">
@@ -254,18 +285,18 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
               <div class="w3-container w3-center w3-padding-64 w3-xlarge de">
                   <img src="deartlogo.svg" height="150px"></img><br/>
-                  De Art Handicrafts (P) Ltd<br/>
-                  +91 9811045508
+                  De Art Handicrafts<br/>
+                  +91 9910 493 385
               </div>
 
               <footer class="w3-container w3-text-white w3-padding-large w3-center" style="background-color:#0e1a5f;">
                 <p class="w3-xlarge">
-                  <a href="//facebook.com/Webices" target="_blank" class="fa fa-facebook w3-hover-text-indigo w3-padding"></a>
-                  <a href="//www.linkedin.com/company/Webices" target="_blank" class="fa fa-linkedin w3-hover-text-blue w3-padding"></a>
-                  <a href="//google.com/+Webices" target="_blank" class="fa fa-google-plus w3-hover-text-red w3-padding"></a>
-                  <a href="//telegram.me/heisGarvit" target="_blank" class="fa fa-paper-plane w3-hover-text-blue w3-padding"></a>
+                  <a href="//facebook.com/www.DeArt.in" target="_blank" class="fa fa-facebook w3-hover-text-indigo w3-padding"></a>
+                  <a href="//www.linkedin.com/company/DeArt" target="_blank" class="fa fa-linkedin w3-hover-text-blue w3-padding"></a>
+                  <a href="//google.com/+DeArt" target="_blank" class="fa fa-google-plus w3-hover-text-red w3-padding"></a>
+                  <a href="//telegram.me/DeArtHandicrafts" target="_blank" class="fa fa-paper-plane w3-hover-text-blue w3-padding"></a>
                 </p>
-                <a href="//www.deart.in" class="w3-half">&copy; 2016 All rights reserved</a>
+                <a href="//www.deart.in" class="w3-half">&copy; 2016 | All rights reserved.</a>
                 <a href="//webices.com" target="_blank" class="w3-half w3-hover-text-red">  Powered By Webices.com</a>
               </footer>
 
@@ -287,7 +318,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
                 var Phone = document.getElementById("Phone").value;
                 var Message = document.getElementById("Message").value;
                 var xhr = new XMLHttpRequest();
-                xhr.open('POST', '//formspree.io/art.in', true);
+                xhr.open('POST', '//formspree.io/art@deart.in', true);
                 xhr.setRequestHeader("Accept", "application/json");
                 xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 
